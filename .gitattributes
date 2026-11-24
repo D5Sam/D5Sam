@@ -1,0 +1,8 @@
+# 统一换行，保证「重跑生成器 diff 为空」在跨平台下也成立
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.pdf binary
+*.xlsx binary
+*.docx binary
