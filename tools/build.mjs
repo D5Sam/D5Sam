@@ -650,6 +650,8 @@ function renderAiContextJson(cfg, d) {
     dislikes: cfg.dislikes,
     stack: cfg.stack,
     currentFocus: cfg.currentFocus,
+    environment: cfg.environment,
+    acceptanceHabit: cfg.acceptanceHabit,
     observed: {
       dataThrough: d.generatedFrom.dataThrough,
       firstSeen: d.generatedFrom.firstSeen,
@@ -714,6 +716,12 @@ function renderAiContextMd(cfg, d) {
   L.push('');
   for (const c of cfg.currentFocus) L.push('- ' + c);
   L.push('');
+  L.push('## 6b. 运行环境与验收口径');
+  L.push('');
+  for (const e of cfg.environment) L.push('- ' + e);
+  L.push('');
+  L.push(cfg.acceptanceHabit);
+  L.push('');
   L.push('## 7. 助手应该怎么帮');
   L.push('');
   for (const h of cfg.howToHelp) L.push('- ' + h);
@@ -763,6 +771,14 @@ function renderLlmsTxt(cfg, d) {
   L.push('');
   for (const s of cfg.stack) L.push('- ' + s.group + '：' + s.items.join('、'));
   L.push('');
+  L.push('## 怎么算做完了');
+  L.push('');
+  L.push(cfg.acceptanceHabit);
+  L.push('');
+  L.push('## 运行环境');
+  L.push('');
+  for (const e of cfg.environment) L.push('- ' + e);
+  L.push('');
   L.push('## 怎么跟他合作');
   L.push('');
   for (const h of cfg.howToHelp) L.push('- ' + h);
@@ -804,6 +820,7 @@ function renderReadme(cfg, d) {
   L.push('| 常用工具 | ' + cfg.stack.map((s) => s.items.slice(0, 3).join('、')).join('；') + ' |');
   L.push('| 沟通语言 | 中文，术语保留英文原词 |');
   L.push('| 回答风格 | ' + cfg.answerStyle + ' |');
+  L.push('| 运行环境 | ' + cfg.environment.map((e) => e.split('，')[0]).join('；') + ' |');
   L.push('');
   L.push('## 我在做什么');
   L.push('');
@@ -820,6 +837,14 @@ function renderReadme(cfg, d) {
   L.push('## 技术栈');
   L.push('');
   for (const s of cfg.stack) L.push('- **' + s.group + '** — ' + s.items.join('、'));
+  L.push('');
+  L.push('## 怎么算「做完了」');
+  L.push('');
+  L.push(cfg.acceptanceHabit);
+  L.push('');
+  L.push('## 运行环境');
+  L.push('');
+  for (const e of cfg.environment) L.push('- ' + e);
   L.push('');
   L.push('## 跟我协作的 6 条规则');
   L.push('');

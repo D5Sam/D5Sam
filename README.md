@@ -15,6 +15,7 @@
 | 常用工具 | Abaqus/CAE、ANSYS Workbench、CalculiX；SolidWorks 2024、Parasolid (.x_t)、STEP；Python、Node.js、PowerShell；DeepSeek Harness (DSH)、WorkBuddy、MCP 工具链；PowerPoint 自动生成、Word 排版、PDF 报告 |
 | 沟通语言 | 中文，术语保留英文原词 |
 | 回答风格 | 先给结论和可直接执行的命令/文件，再补理由；不确定就明说不确定，别硬编 |
+| 运行环境 | Windows 11 桌面环境；Node.js 与 Python 双运行时；AI 助手：DeepSeek Harness (DSH) + WorkBuddy；数据与项目文件放 D 盘 |
 
 ## 我在做什么
 
@@ -48,6 +49,17 @@
 - **脚本与自动化** — Python、Node.js、PowerShell、Abaqus Python、SolidWorks API
 - **AI 助手** — DeepSeek Harness (DSH)、WorkBuddy、MCP 工具链、Skill 技能包
 - **文档交付** — PowerPoint 自动生成、Word 排版、PDF 报告
+
+## 怎么算「做完了」
+
+验收只认可量化的指标：减重百分比、最大应力、模态频率、位移量、TRL 等级。不接受「效果明显」这种说法。
+
+## 运行环境
+
+- Windows 11 桌面环境，命令行主要用 PowerShell
+- Node.js 与 Python 双运行时，脚本优先于手点
+- AI 助手：DeepSeek Harness (DSH) + WorkBuddy，双端并行使用
+- 数据与项目文件放 D 盘，系统盘尽量不动
 
 ## 跟我协作的 6 条规则
 

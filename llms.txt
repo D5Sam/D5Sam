@@ -20,6 +20,17 @@
 - AI 助手：DeepSeek Harness (DSH)、WorkBuddy、MCP 工具链、Skill 技能包
 - 文档交付：PowerPoint 自动生成、Word 排版、PDF 报告
 
+## 怎么算做完了
+
+验收只认可量化的指标：减重百分比、最大应力、模态频率、位移量、TRL 等级。不接受「效果明显」这种说法。
+
+## 运行环境
+
+- Windows 11 桌面环境，命令行主要用 PowerShell
+- Node.js 与 Python 双运行时，脚本优先于手点
+- AI 助手：DeepSeek Harness (DSH) + WorkBuddy，双端并行使用
+- 数据与项目文件放 D 盘，系统盘尽量不动
+
 ## 怎么跟他合作
 
 - 先给结论和产物，再解释过程；不要反过来。

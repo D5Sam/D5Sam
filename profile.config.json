@@ -157,6 +157,13 @@
     "extraFile": ".local/redact.txt",
     "note": "机构名、单位名一律不公开。敏感词本身不写进这份公开配置，而是放在 .local/redact.txt（一行一个，已被 gitignore）。这里的数组只放不含敏感信息的补充词。"
   },
+  "environment": [
+    "Windows 11 桌面环境，命令行主要用 PowerShell",
+    "Node.js 与 Python 双运行时，脚本优先于手点",
+    "AI 助手：DeepSeek Harness (DSH) + WorkBuddy，双端并行使用",
+    "数据与项目文件放 D 盘，系统盘尽量不动"
+  ],
+  "acceptanceHabit": "验收只认可量化的指标：减重百分比、最大应力、模态频率、位移量、TRL 等级。不接受「效果明显」这种说法。",
   "links": {
     "github": "https://github.com/D5Sam"
   }

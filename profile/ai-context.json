@@ -129,6 +129,13 @@
     "SolidWorks 建模 → Abaqus 仿真的流水线自动化",
     "螺纹通止规半自动检测工装的设计与论证"
   ],
+  "environment": [
+    "Windows 11 桌面环境，命令行主要用 PowerShell",
+    "Node.js 与 Python 双运行时，脚本优先于手点",
+    "AI 助手：DeepSeek Harness (DSH) + WorkBuddy，双端并行使用",
+    "数据与项目文件放 D 盘，系统盘尽量不动"
+  ],
+  "acceptanceHabit": "验收只认可量化的指标：减重百分比、最大应力、模态频率、位移量、TRL 等级。不接受「效果明显」这种说法。",
   "observed": {
     "dataThrough": "2026-11-24",
     "firstSeen": "2026-10-30",
