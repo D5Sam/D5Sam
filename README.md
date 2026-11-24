@@ -16,3 +16,4 @@ Here are some ideas to get you started:
 -->
 
 <!-- S0 smoke test -->
+<!-- wrapper quiet-mode test -->
