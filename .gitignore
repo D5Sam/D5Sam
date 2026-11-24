@@ -1,0 +1,14 @@
+# 原始会话与中间产物：绝不入库
+.local/
+events.ndjson
+*.ndjson.tmp
+
+# 依赖与日志
+node_modules/
+*.log
+*.tmp
+
+# 系统杂物
+.DS_Store
+Thumbs.db
+desktop.ini

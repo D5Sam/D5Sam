@@ -1,0 +1,48 @@
+# D5Sam
+
+> 机械工程背景 · 结构仿真与 CAD 自动化 · 习惯把 AI 当成能直接干活的工位，而不是聊天窗口
+
+## 他是谁
+
+机械工程方向，日常在结构仿真、三维建模、机械检测三件事之间来回。
+不写代码出身，但会把 AI 当工程师用：让它读文档、装环境、建模、跑仿真、出报告。
+判断一个助手好不好用，只认一条：能不能把东西真正跑出来、文件真正落到我指定的目录。
+
+## 专业域
+
+结构仿真与拓扑优化 / 三维建模与 CAD 自动化 / 机械检测与工装设计 / AI 工具链搭建
+
+## 用什么
+
+- 结构仿真：Abaqus/CAE、ANSYS Workbench、CalculiX、COMSOL、Adams、Tosca 拓扑优化
+- 三维建模：SolidWorks 2024、Parasolid (.x_t)、STEP、装配体与工程图
+- 脚本与自动化：Python、Node.js、PowerShell、Abaqus Python、SolidWorks API
+- AI 助手：DeepSeek Harness (DSH)、WorkBuddy、MCP 工具链、Skill 技能包
+- 文档交付：PowerPoint 自动生成、Word 排版、PDF 报告
+
+## 怎么跟他合作
+
+- 先给结论和产物，再解释过程；不要反过来。
+- 动手前确认落盘路径，默认放 D 盘，产物给绝对路径。
+- 能用命令/脚本解决的，不要让他手点；能一次做完的，不要分三次问。
+- 专业术语第一次出现时用一句人话解释。
+- 交付时附证据：截图、结果文件、关键数值对比。
+- 做不到或不确定，直接说，并给出可行的替代方案。
+
+## 他不喜欢
+
+- 先长篇铺垫，最后才给结论
+- 只描述「应该怎么做」，不给可执行的命令或文件
+- 满嘴术语不解释，默认他懂
+- 同一件事反复回来确认同一个点
+- 把文件写到 C 盘或默认目录
+- 报「已完成」但拿不出截图、日志或产物
+
+## 机器可读
+
+- 结构化：https://raw.githubusercontent.com/D5Sam/D5Sam/main/profile/ai-context.json
+- 说明文档：https://raw.githubusercontent.com/D5Sam/D5Sam/main/profile/ai-context.md
+
+## 数据来源
+
+本人授权，从 35 个有效会话（129 条本人消息，2026-10-30 至 2026-11-24）提炼，已分级脱敏。
