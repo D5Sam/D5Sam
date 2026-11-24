@@ -1,19 +1,11 @@
-## Hi there 👋
+# D5Sam
 
-<!--
-**D5Sam/D5Sam** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+个人档案与工作记录仓库。
 
-Here are some ideas to get you started:
+## 内容
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+后续项目资料、脚本与文档会陆续归档到这里。
 
-<!-- S0 smoke test -->
-<!-- wrapper quiet-mode test -->
+## 访问
+
+<https://github.com/D5Sam/D5Sam>
